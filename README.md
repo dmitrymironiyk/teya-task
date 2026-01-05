@@ -67,9 +67,8 @@ and fill some gaps in the project requirements
 - Requests to the system always coming one after another
 - All data disappears after application shutdown
 - Initial balance of the system is 0
-- Balance of the system can`t be negative
+- Balance of the system can't be negative
 - Operations with negative numbers are invalid
-- It is important to store very precise
 
 ## Project decisions
 
