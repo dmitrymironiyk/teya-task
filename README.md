@@ -73,3 +73,6 @@ and fill some gaps in the project requirements
 ## Project decisions
 
 - Use **BigDecimal** to store money data to be precise with balance
+- Avoid testing service layer with persistence layer mocks because persistence layer here is very simple.
+In the real project with real db which empowers persistence I will implement service layer tests with persistence 
+layer mocks and persistence layer tests with real db.

@@ -16,9 +16,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
-// I am not using mock here because logic in persistence layer is very straightforward so I decided to test it here
-// In case of a real database I will do this tests in different test suites(service tests with mocks
-// and persistence layer tests with real db)
 public class LedgerServiceTest {
 
     private LedgerService ledgerService;
