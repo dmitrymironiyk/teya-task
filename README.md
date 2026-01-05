@@ -1,11 +1,10 @@
 ## About project
 
-This project is a coding task solution for Teya. This is simple API which should empower:
+This project is a coding task solution for Teya. This is simple API which should provide:
 - Ability to record money movements (ie: deposits and withdrawals)
 - View current balance
 - View transaction history
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 To run the code you should install everything from prerequisites and follow the installation instructions.
@@ -13,14 +12,13 @@ To run the code you should install everything from prerequisites and follow the 
 ### Prerequisites
 
 - java 21 ([installation instructions](https://docs.oracle.com/en/java/javase/21/install/overview-jdk-installation.html))
-- maven 3 ([installation instructions](https://maven.apache.org/install.html)
+- maven 3 ([installation instructions](https://maven.apache.org/install.html))
 
 ### Installation
 
 1. Clone the repo if the project is not on your PC yet
-#   TODO: replace link here
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/dmitrymironiyk/teya-task
    ```
 2. Build project
    ```sh
@@ -33,7 +31,7 @@ To run the app you can use this command
 ```sh
 java -jar target/teya-0.0.1-SNAPSHOT.jar 
 ```
-Now the app is running on your machine on 8080 port and you can interact with it. 
+Now the app is running on your local machine on the 8080 port. 
 To play with application you can use curl to make an api calls to the available endpoints. 
 Here you can find couple examples.
 
